@@ -1,0 +1,28 @@
+{
+  "id": "chapters/ai-robot-brain",
+  "title": "Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)",
+  "description": "The Cognitive Architecture of Intelligent Robots",
+  "source": "@site/docs/chapters/ai-robot-brain.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/ai-robot-brain",
+  "permalink": "/textbook-frontend/docs/chapters/ai-robot-brain",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/chapters/ai-robot-brain.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/textbook-frontend/docs/chapters/digital-twin"
+  },
+  "next": {
+    "title": "Learning Outcomes",
+    "permalink": "/textbook-frontend/docs/learning-outcomes"
+  }
+}

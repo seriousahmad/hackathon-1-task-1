@@ -1,0 +1,28 @@
+{
+  "id": "learning-outcomes",
+  "title": "Learning Outcomes",
+  "description": "Physical AI & Humanoid Robotics: The Future of Embodied Intelligence",
+  "source": "@site/docs/learning-outcomes.md",
+  "sourceDirName": ".",
+  "slug": "/learning-outcomes",
+  "permalink": "/textbook-frontend/docs/learning-outcomes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/learning-outcomes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Learning Outcomes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/textbook-frontend/docs/chapters/ai-robot-brain"
+  },
+  "next": {
+    "title": "Weekly Breakdown",
+    "permalink": "/textbook-frontend/docs/weekly-breakdown"
+  }
+}

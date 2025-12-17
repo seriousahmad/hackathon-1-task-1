@@ -1,0 +1,28 @@
+{
+  "id": "assessments",
+  "title": "Assessments",
+  "description": "Assessment Philosophy",
+  "source": "@site/docs/assessments.md",
+  "sourceDirName": ".",
+  "slug": "/assessments",
+  "permalink": "/textbook-frontend/docs/assessments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/assessments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Assessments"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weekly Breakdown",
+    "permalink": "/textbook-frontend/docs/weekly-breakdown"
+  },
+  "next": {
+    "title": "Hardware Requirements",
+    "permalink": "/textbook-frontend/docs/hardware-requirements"
+  }
+}

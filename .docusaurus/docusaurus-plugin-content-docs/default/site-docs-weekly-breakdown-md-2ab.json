@@ -1,0 +1,28 @@
+{
+  "id": "weekly-breakdown",
+  "title": "Weekly Breakdown",
+  "description": "10-Week Course Structure",
+  "source": "@site/docs/weekly-breakdown.md",
+  "sourceDirName": ".",
+  "slug": "/weekly-breakdown",
+  "permalink": "/textbook-frontend/docs/weekly-breakdown",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/weekly-breakdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Weekly Breakdown"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Learning Outcomes",
+    "permalink": "/textbook-frontend/docs/learning-outcomes"
+  },
+  "next": {
+    "title": "Assessments",
+    "permalink": "/textbook-frontend/docs/assessments"
+  }
+}

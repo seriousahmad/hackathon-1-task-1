@@ -1,0 +1,24 @@
+{
+  "id": "index",
+  "title": "Home",
+  "description": "A Comprehensive Textbook on Embodied Intelligence",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/textbook-frontend/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Home"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/textbook-frontend/docs/chapters/robotic-nervous-system"
+  }
+}

@@ -1,0 +1,107 @@
+.collapsible-toc {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.toc-header {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toc-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #818cf8;
+}
+
+.collapsible-toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.collapsible-toc-list.level-0 {
+  padding-left: 0;
+}
+
+.collapsible-toc-list.level-1 {
+  padding-left: 1rem;
+}
+
+.collapsible-toc-list.level-2 {
+  padding-left: 2rem;
+}
+
+.collapsible-toc-item {
+  margin-bottom: 0.25rem;
+}
+
+.collapsible-section {
+  width: 100%;
+}
+
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  color: inherit;
+  text-align: left;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.section-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.section-title {
+  font-weight: 500;
+}
+
+.toggle-icon {
+  transition: transform 0.2s ease;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.toggle-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.section-content {
+  margin-top: 0.25rem;
+}
+
+.toc-link {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #c7d2fe;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.toc-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+  .collapsible-toc {
+    max-height: 30vh;
+  }
+}

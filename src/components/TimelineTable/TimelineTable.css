@@ -1,0 +1,117 @@
+.timeline-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.timeline-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.timeline-table th {
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.timeline-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: top;
+}
+
+.timeline-table tr.even-row {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.timeline-table tr.odd-row {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.week-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-weight: bold;
+  min-width: 40px;
+  text-align: center;
+}
+
+.timeline-table h4 {
+  margin: 0 0 0.5rem 0;
+  color: #c7d2fe;
+}
+
+.timeline-table p {
+  margin: 0;
+  color: #e2e8f0;
+}
+
+.objectives-list,
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.objective-item,
+.activity-item {
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.objective-item::before,
+.activity-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #818cf8;
+  font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timeline-table {
+    font-size: 0.9rem;
+  }
+
+  .timeline-table th,
+  .timeline-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .week-badge {
+    padding: 0.2rem 0.5rem;
+    min-width: 30px;
+    font-size: 0.9rem;
+  }
+
+  .timeline-table h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-table-container {
+    font-size: 0.8rem;
+  }
+
+  .timeline-table th {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.8rem;
+  }
+
+  .timeline-table td {
+    padding: 0.5rem 0.25rem;
+  }
+}

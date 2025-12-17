@@ -1,0 +1,90 @@
+{
+  "/textbook-frontend/__docusaurus/debug-329": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/__docusaurus/debug/config-1cd": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/__docusaurus/debug/content-58a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    },
+    "__props": "__props---textbook-frontend-docusaurus-debug-content-618-d6c"
+  },
+  "/textbook-frontend/__docusaurus/debug/globalData-5c8": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/__docusaurus/debug/metadata-df1": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/__docusaurus/debug/registry-10f": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/__docusaurus/debug/routes-d35": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docusaurus-debugb-38-974"
+    }
+  },
+  "/textbook-frontend/docs-560": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---textbook-frontend-docsaba-793"
+    }
+  },
+  "/textbook-frontend/docs-b1c": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---textbook-frontend-docs-713-d29"
+  },
+  "/textbook-frontend/docs-b62": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/textbook-frontend/docs/-6d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-c-37-411"
+  },
+  "/textbook-frontend/docs/assessments-2e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-assessmentsd-16-8f2"
+  },
+  "/textbook-frontend/docs/chapters/ai-robot-brain-3f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-chapters-ai-robot-braind-62-605"
+  },
+  "/textbook-frontend/docs/chapters/digital-twin-4a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-chapters-digital-twin-5-a-0-762"
+  },
+  "/textbook-frontend/docs/chapters/robotic-nervous-system-45c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-chapters-robotic-nervous-system-922-0a8"
+  },
+  "/textbook-frontend/docs/hardware-requirements-7b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-hardware-requirements-122-6bf"
+  },
+  "/textbook-frontend/docs/learning-outcomes-cb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-learning-outcomes-8-b-2-d31"
+  },
+  "/textbook-frontend/docs/weekly-breakdown-6f7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---textbook-frontend-docs-weekly-breakdown-2-ab-361"
+  }
+}

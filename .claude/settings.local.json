@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch --all --prune)",
+      "Bash(pwsh -Command \".specify/scripts/powershell/create-new-feature.ps1 -Json -Number 1 -ShortName ''textbook-website'' -FeatureDescription ''Build a premium, interactive, and fully responsive textbook website titled \"\"Physical AI & Humanoid Robotics: The Future of Embodied Intelligence\"\" using Docusaurus 3.7.''\")",
+      "Bash(pwsh -Command \".specify/scripts/powershell/setup-plan.ps1 -Json\")",
+      "Bash(pwsh -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json\")",
+      "Bash(pwsh -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks\")",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(npm install)",
+      "Bash(npm start)",
+      "Bash(npx docusaurus start --port 3001)"
+    ]
+  }
+}
