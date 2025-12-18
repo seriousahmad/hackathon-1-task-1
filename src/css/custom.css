@@ -133,10 +133,183 @@ h1, h2, h3, h4, h5, h6 {
 /* Table of Contents styling */
 .table-of-contents {
   border-left: 3px solid var(--ifm-color-primary-light);
+  width: 300px; /* Match the left sidebar width */
+}
+
+/* Right sidebar container */
+.toc-sidebar {
+  width: 300px !important; /* Match the left sidebar width */
+}
+
+/* Left sidebar to ensure consistent width */
+.sidebar {
+  width: 300px;
+}
+
+/* Layout adjustments to match reference site */
+.doc-page {
+  display: grid;
+  grid-template-columns: 300px 3fr 200px; /* Left sidebar, main content (3x wider), right sidebar */
+  gap: 1rem; /* Reduced gap to move content closer to left sidebar */
+  max-width: calc(100vw - 2rem);
+  margin: 0 auto;
+}
+
+.doc-main-container {
+  grid-column: 2;
+}
+
+.doc-toc-container {
+  grid-column: 3 !important;
+  position: relative !important; /* Changed to relative to ensure proper grid placement */
+  align-self: start !important;
+  height: fit-content !important;
+  margin-left: 20px !important; /* Increased margin to 20px */
+}
+
+.doc-sidebar-container {
+  grid-column: 1;
+  position: sticky;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .doc-page {
+    grid-template-columns: 280px 1fr; /* Adjusted for small screens only */
+    gap: 0.75rem;
+  }
+
+  .doc-toc-container {
+    grid-column: 2;
+    position: static;
+  }
+
+  .doc-main-container {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 996px) {
+  .doc-page {
+    grid-template-columns: 1fr; /* Single column on mobile */
+    gap: 0.5rem;
+  }
+
+  .doc-toc-container,
+  .doc-sidebar-container {
+    position: static;
+    width: auto !important;
+  }
+
+  .table-of-contents {
+    width: auto;
+  }
+
+  .toc-sidebar {
+    width: auto !important;
+  }
+
+  .sidebar {
+    width: auto;
+  }
 }
 
 /* Footer styling */
 .footer {
   background: linear-gradient(135deg, var(--book-gradient-end), var(--book-gradient-start));
   color: white;
+}
+
+/* Navbar brand hover effect */
+.navbar__brand:hover {
+  opacity: 1 !important;
+}
+
+.navbar__brand:hover .navbar__title {
+  color: #10b981 !important; /* Bright green color */
+  opacity: 1 !important;
+}
+
+/* Specific styling for Home link */
+.navbar__link[href="/"],
+.navbar__item a[href="/"] {
+  color: white !important;
+  font-weight: bold !important;
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+/* Hide home icon */
+.navbar__link[href="/"] svg,
+.navbar__item a[href="/"] svg,
+.navbar__link[href="/"] i,
+.navbar__item a[href="/"] i {
+  display: none !important;
+}
+
+/* Ensure Home link text is always white */
+a[href="/"] .navbar__link,
+a[href="/"].navbar__link,
+.navbar__link[href="/"] {
+  color: white !important;
+}
+
+/* Specific styling for Home link hover */
+.navbar__link[href="/"]:hover,
+.navbar__item a[href="/"]:hover {
+  color: #10b981 !important; /* Bright green on hover */
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Hide home icon on hover as well */
+.navbar__link[href="/"]:hover svg,
+.navbar__item a[href="/"]:hover svg,
+.navbar__link[href="/"]:hover i,
+.navbar__item a[href="/"]:hover i {
+  display: none !important;
+}
+
+/* Navbar links hover effect - same as textbook text (for non-Home links) */
+.navbar__link:not([href="/"]):hover {
+  color: #10b981 !important; /* Bright green color */
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Change icons for Home and Chapters to bright yellow */
+.navbar__link[href="/"] svg,
+.navbar__item a[href="/"] svg,
+.navbar__link[href="/"] i,
+.navbar__item a[href="/"] i {
+  color: #fbbf24 !important; /* Bright yellow */
+  fill: #fbbf24 !important;
+}
+
+.navbar__link[href*="docs"] svg,
+.navbar__item a[href*="docs"] svg,
+.navbar__link[href*="docs"] i,
+.navbar__item a[href*="docs"] i {
+  color: #fbbf24 !important; /* Bright yellow for Chapters */
+  fill: #fbbf24 !important;
+}
+
+/* Change icons on hover to maintain yellow color */
+.navbar__link[href="/"]:hover svg,
+.navbar__item a[href="/"]:hover svg,
+.navbar__link[href="/"]:hover i,
+.navbar__item a[href="/"]:hover i {
+  color: #fbbf24 !important;
+  fill: #fbbf24 !important;
+}
+
+.navbar__link[href*="docs"]:hover svg,
+.navbar__item a[href*="docs"]:hover svg,
+.navbar__link[href*="docs"]:hover i,
+.navbar__item a[href*="docs"]:hover i {
+  color: #fbbf24 !important;
+  fill: #fbbf24 !important;
 }

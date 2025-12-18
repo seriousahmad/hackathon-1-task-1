@@ -3,55 +3,20 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/textbook-frontend/__docusaurus/debug',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug', '329'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/config',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/config', '1cd'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/content',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/content', '58a'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/globalData',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/globalData', '5c8'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/metadata',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/metadata', 'df1'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/registry',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/registry', '10f'),
-    exact: true
-  },
-  {
-    path: '/textbook-frontend/__docusaurus/debug/routes',
-    component: ComponentCreator('/textbook-frontend/__docusaurus/debug/routes', 'd35'),
-    exact: true
-  },
-  {
     path: '/textbook-frontend/docs',
-    component: ComponentCreator('/textbook-frontend/docs', '560'),
+    component: ComponentCreator('/textbook-frontend/docs', '904'),
     routes: [
       {
         path: '/textbook-frontend/docs',
-        component: ComponentCreator('/textbook-frontend/docs', 'b1c'),
+        component: ComponentCreator('/textbook-frontend/docs', 'e46'),
         routes: [
           {
             path: '/textbook-frontend/docs',
-            component: ComponentCreator('/textbook-frontend/docs', 'b62'),
+            component: ComponentCreator('/textbook-frontend/docs', 'd0c'),
             routes: [
               {
-                path: '/textbook-frontend/docs/',
-                component: ComponentCreator('/textbook-frontend/docs/', '6d7'),
+                path: '/textbook-frontend/docs',
+                component: ComponentCreator('/textbook-frontend/docs', '12e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -102,6 +67,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/textbook-frontend/',
+    component: ComponentCreator('/textbook-frontend/', 'cda'),
+    exact: true
   },
   {
     path: '*',

@@ -9,7 +9,16 @@
       "Bash(git rev-parse --git-dir)",
       "Bash(npm install)",
       "Bash(npm start)",
-      "Bash(npx docusaurus start --port 3001)"
+      "Bash(npx docusaurus start --port 3001)",
+      "Bash(npm run deploy)",
+      "Bash(GIT_USER=seriousahmad npm run deploy)",
+      "Bash(mkdir -p src/pages)",
+      "Bash(npx docusaurus start --port 3002)",
+      "Bash(npx docusaurus start --port 3003)",
+      "Bash(npx docusaurus start --port 3004)",
+      "Bash(npx docusaurus start --port 3005)",
+      "Bash(npx docusaurus start --port 3006)",
+      "Bash(npm run build)"
     ]
   }
 }

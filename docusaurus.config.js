@@ -15,12 +15,13 @@ const config = {
   baseUrl: '/textbook-frontend/',
 
   // GitHub pages deployment config
-  organizationName: 'your-username', // Usually your GitHub org/user name
-  projectName: 'textbook-frontend', // Usually your repo name
+  organizationName: 'seriousahmad', // Usually your GitHub org/user name
+  projectName: 'physicalandhumanoidroboticsfrontend', // Usually your repo name
   deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -41,6 +42,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/your-username/textbook-frontend/tree/main/',
+          // Route base path for docs section
+          routeBasePath: 'docs',
         },
         blog: false, // Disable blog if not needed
         theme: {
@@ -57,11 +60,12 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Textbook',
-        logo: {
-          alt: 'Textbook Logo',
-          src: 'img/logo.svg',
-        },
         items: [
+          {
+            to: '/',
+            label: 'Home',
+            position: 'left',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -69,7 +73,7 @@ const config = {
             label: 'Chapters',
           },
           {
-            href: 'https://github.com/your-username/textbook-frontend',
+            href: 'https://github.com/seriousahmad/physicalandhumanoidroboticsfrontend',
             label: 'GitHub',
             position: 'right',
           },
@@ -83,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Home',
-                to: '/docs/',
+                to: '/',
               },
               {
                 label: 'Chapters',

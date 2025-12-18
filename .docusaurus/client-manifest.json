@@ -1,0 +1,277 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "351": [
+      401,
+      869,
+      351
+    ],
+    "17896441": [
+      351,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "122dbed4": [
+      367
+    ],
+    "2ab8ccb5": [
+      471
+    ],
+    "5a081de0": [
+      1
+    ],
+    "5e95c892": [
+      647
+    ],
+    "713ae4f7": [
+      901
+    ],
+    "8b222800": [
+      151
+    ],
+    "9225e2c3": [
+      374
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c377a04b": [
+      361
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "d16c5452": [
+      765
+    ],
+    "d6295378": [
+      327
+    ],
+    "styles": [
+      48,
+      351,
+      354,
+      401,
+      634,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "1": {
+      "js": [
+        {
+          "file": "assets/js/5a081de0.3facf3c9.js",
+          "hash": "ec1f5bf12aedfa50",
+          "publicPath": "/textbook-frontend/assets/js/5a081de0.3facf3c9.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.d93d9874.js",
+          "hash": "5bbbca60839cc37f",
+          "publicPath": "/textbook-frontend/assets/js/a94703ab.d93d9874.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.ffbb06cb.js",
+          "hash": "c6bb32999cc1fd2d",
+          "publicPath": "/textbook-frontend/assets/js/a7bd4aaa.ffbb06cb.js"
+        }
+      ]
+    },
+    "151": {
+      "js": [
+        {
+          "file": "assets/js/8b222800.bf1eacdb.js",
+          "hash": "903d588c0e3eecab",
+          "publicPath": "/textbook-frontend/assets/js/8b222800.bf1eacdb.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.582347d8.js",
+          "hash": "5da86e2524158c78",
+          "publicPath": "/textbook-frontend/assets/js/a7456010.582347d8.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.6f4aa7a8.js",
+          "hash": "fe57844176586359",
+          "publicPath": "/textbook-frontend/assets/js/237.6f4aa7a8.js"
+        }
+      ]
+    },
+    "327": {
+      "js": [
+        {
+          "file": "assets/js/d6295378.3994bdcc.js",
+          "hash": "f2b35ae8f8349085",
+          "publicPath": "/textbook-frontend/assets/js/d6295378.3994bdcc.js"
+        }
+      ]
+    },
+    "351": {
+      "js": [
+        {
+          "file": "assets/js/351.0d647648.js",
+          "hash": "382067d046b4fa0d",
+          "publicPath": "/textbook-frontend/assets/js/351.0d647648.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.e71a223f.js",
+          "hash": "ebcfc36983aec625",
+          "publicPath": "/textbook-frontend/assets/js/runtime~main.e71a223f.js"
+        }
+      ]
+    },
+    "361": {
+      "js": [
+        {
+          "file": "assets/js/c377a04b.32b80436.js",
+          "hash": "6bdd7543a964804b",
+          "publicPath": "/textbook-frontend/assets/js/c377a04b.32b80436.js"
+        }
+      ]
+    },
+    "367": {
+      "js": [
+        {
+          "file": "assets/js/122dbed4.3be22745.js",
+          "hash": "22587447928efe80",
+          "publicPath": "/textbook-frontend/assets/js/122dbed4.3be22745.js"
+        }
+      ]
+    },
+    "374": {
+      "js": [
+        {
+          "file": "assets/js/9225e2c3.34837229.js",
+          "hash": "2d5d4fbe4ce7902f",
+          "publicPath": "/textbook-frontend/assets/js/9225e2c3.34837229.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.41afb2e6.js",
+          "hash": "cf2725167d2c59f1",
+          "publicPath": "/textbook-frontend/assets/js/17896441.41afb2e6.js"
+        }
+      ]
+    },
+    "471": {
+      "js": [
+        {
+          "file": "assets/js/2ab8ccb5.59b90a72.js",
+          "hash": "b53054bc0620d059",
+          "publicPath": "/textbook-frontend/assets/js/2ab8ccb5.59b90a72.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.5db1ec64.js",
+          "hash": "e0d3b7f911a70027",
+          "publicPath": "/textbook-frontend/assets/js/c4f5d8e4.5db1ec64.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.f4c424ba.js",
+          "hash": "bea1d8da7d1d15f0",
+          "publicPath": "/textbook-frontend/assets/js/5e95c892.f4c424ba.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.86751fb5.js",
+          "hash": "8d6035fdfce6a316",
+          "publicPath": "/textbook-frontend/assets/js/aba21aa0.86751fb5.js"
+        }
+      ]
+    },
+    "765": {
+      "js": [
+        {
+          "file": "assets/js/d16c5452.954d3b82.js",
+          "hash": "4ddb0078974792d6",
+          "publicPath": "/textbook-frontend/assets/js/d16c5452.954d3b82.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.c387d467.js",
+          "hash": "7753997b9d20462c",
+          "publicPath": "/textbook-frontend/assets/js/main.c387d467.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.286815fd.css",
+          "hash": "e4232f26ee0fcf4d",
+          "publicPath": "/textbook-frontend/assets/css/styles.286815fd.css"
+        }
+      ]
+    },
+    "901": {
+      "js": [
+        {
+          "file": "assets/js/713ae4f7.9d7ce31b.js",
+          "hash": "3689fc2c41c2441f",
+          "publicPath": "/textbook-frontend/assets/js/713ae4f7.9d7ce31b.js"
+        }
+      ]
+    }
+  }
+}

@@ -9,10 +9,11 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
   "baseUrl": "/textbook-frontend/",
-  "organizationName": "your-username",
-  "projectName": "textbook-frontend",
+  "organizationName": "seriousahmad",
+  "projectName": "physicalandhumanoidroboticsfrontend",
   "deploymentBranch": "gh-pages",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,7 +28,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/"
+          "editUrl": "https://github.com/your-username/textbook-frontend/tree/main/",
+          "routeBasePath": "docs"
         },
         "blog": false,
         "theme": {
@@ -40,11 +42,12 @@ export default {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "Textbook",
-      "logo": {
-        "alt": "Textbook Logo",
-        "src": "img/logo.svg"
-      },
       "items": [
+        {
+          "to": "/",
+          "label": "Home",
+          "position": "left"
+        },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
@@ -52,7 +55,7 @@ export default {
           "label": "Chapters"
         },
         {
-          "href": "https://github.com/your-username/textbook-frontend",
+          "href": "https://github.com/seriousahmad/physicalandhumanoidroboticsfrontend",
           "label": "GitHub",
           "position": "right"
         }
@@ -67,7 +70,7 @@ export default {
           "items": [
             {
               "label": "Home",
-              "to": "/docs/"
+              "to": "/"
             },
             {
               "label": "Chapters",

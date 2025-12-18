@@ -3,6 +3,8 @@ sidebar_position: 1
 title: Home
 ---
 
+import Link from '@docusaurus/Link';
+
 # Physical AI & Humanoid Robotics: The Future of Embodied Intelligence
 
 ## A Comprehensive Textbook on Embodied Intelligence
@@ -16,7 +18,7 @@ This comprehensive resource provides both theoretical foundations and practical 
 ### Chapter Preview
 
 <div className="row">
-  <div className="col col--4 margin-bottom--lg">
+  <div className="col col--4 margin-bottom--lg padding--none">
     <div className="card">
       <div className="card__header">
         <h3>Chapter 1: The Robotic Nervous System (ROS 2)</h3>
@@ -25,14 +27,14 @@ This comprehensive resource provides both theoretical foundations and practical 
         <p>Explore the Robot Operating System as the foundational nervous system for robotic platforms, covering distributed computing, message passing, and real-time control systems.</p>
       </div>
       <div className="card__footer">
-        <a className="button button--secondary button--block" href="/docs/chapters/robotic-nervous-system">
+        <Link className="button button--secondary button--block" to="/docs/chapters/robotic-nervous-system">
           Read Chapter
-        </a>
+        </Link>
       </div>
     </div>
   </div>
 
-  <div className="col col--4 margin-bottom--lg">
+  <div className="col col--4 margin-bottom--lg padding--none">
     <div className="card">
       <div className="card__header">
         <h3>Chapter 2: The Digital Twin (Gazebo & Unity)</h3>
@@ -41,14 +43,14 @@ This comprehensive resource provides both theoretical foundations and practical 
         <p>Discover how digital twin technology enables safe testing and development of robotic systems in virtual environments before deployment to physical platforms.</p>
       </div>
       <div className="card__footer">
-        <a className="button button--secondary button--block" href="/docs/chapters/digital-twin">
+        <Link className="button button--secondary button--block" to="/docs/chapters/digital-twin">
           Read Chapter
-        </a>
+        </Link>
       </div>
     </div>
   </div>
 
-  <div className="col col--4 margin-bottom--lg">
+  <div className="col col--4 margin-bottom--lg padding--none">
     <div className="card">
       <div className="card__header">
         <h3>Chapter 3: The AI-Robot Brain (NVIDIA Isaac™)</h3>
@@ -57,9 +59,9 @@ This comprehensive resource provides both theoretical foundations and practical 
         <p>Examine advanced AI frameworks and neural architectures that power autonomous robotic decision-making and learning in complex environments.</p>
       </div>
       <div className="card__footer">
-        <a className="button button--secondary button--block" href="/docs/chapters/ai-robot-brain">
+        <Link className="button button--secondary button--block" to="/docs/chapters/ai-robot-brain">
           Read Chapter
-        </a>
+        </Link>
       </div>
     </div>
   </div>
