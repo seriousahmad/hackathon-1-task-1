@@ -9,14 +9,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://seriousahmad.github.io',
   // Set the /<base>/ pathname under which your site is served
   // For GitHub pages deployment, it's usually '/<repo-name>/'
-  baseUrl: '/textbook-frontend/',
+  baseUrl: '/hackathon-1-task-1/',
 
   // GitHub pages deployment config
   organizationName: 'seriousahmad', // Usually your GitHub org/user name
-  projectName: 'physicalandhumanoidroboticsfrontend', // Usually your repo name
+  projectName: 'hackathon-1-task-1', // Usually your repo name
   deploymentBranch: 'gh-pages', // Branch that GitHub Pages will deploy from
 
   onBrokenLinks: 'warn',
@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/textbook-frontend/tree/main/',
+            'https://github.com/seriousahmad/hackathon-1-task-1/tree/main/',
           // Route base path for docs section
           routeBasePath: 'docs',
         },
